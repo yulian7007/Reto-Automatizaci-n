@@ -1,12 +1,11 @@
 ## Reto Automatizacion
 ---
 ## Descripción y contexto
----
+
 Es una automatizacion para la compra de un producto, donde el usuario busca el producto que desea adquirir y lo agrega en el carro de compras, luego valida si el producto se agrego correctamente en dicho carro.
 
 
 ## El framework
----
 ### BDD
 Se utiliza BDD como framework de automatización para la automatización de los escenarios de prueba, la idea es escribir las pruebas antes de escribir el código fuente, pero en lugar de pruebas unitarias, lo que haremos será escribir pruebas que verifiquen que el comportamiento del código es correcto desde el punto de vista de negocio. Tras escribir las pruebas escribimos el código fuente de la funcionalidad que haga que estas pruebas pasen correctamente. Después refactorizamos el código fuente.
 partimos de historias de usuario, siguiendo el modelo “Como [rol ] quiero [ característica ] para que [los beneficios]”. A partir de aquí, en lugar de describir en 'lenguaje natural' lo que tiene que hacer esa nueva funcionalidad, vamos a usar un lenguaje que nos va a permitir describir todas nuestras funcionalidades de una misma forma, un lenguaje específico para BDD.
@@ -24,12 +23,10 @@ Lo normal es probar distintos escenarios para comprobar una determinada funciona
 Se utiliza cucumber como herramienta para para automatizar las pruebas en BDD. Cucumber nos va permitir ejecutar descripciones funcionales en texto plano como pruebas de software automatizadas. Totalmente compatible con el lenguaje Gherkin.
 
 ## Compilador
----
 Se crea el proyecto sobre gradle, es una herramienta de automatización de la construcción de nuestro código, es la versión mejorada de Maven, pero intenta llevarlo todo un paso más allá. Para empezar, se apoya en Groovy y en un DSL (Domain Specific Language) para trabajar con un lenguaje sencillo y claro a la hora de construir el build comparado con Maven. Por otro lado, dispone de una gran flexibilidad que permite trabajar con ella utilizando otros lenguajes y no solo Java. Dispone por otro lado de un sistema de gestión de dependencias sólido.
 
 
 ## Prácticas de automatización
----
 Un proyecto donde se ejemplifica el uso del patrón serenity
 [screenplay](http://thucydides.info/docs/serenity-staging/#_serenity_and_the_screenplay_pattern) con cucumber y gradle.
 
@@ -43,7 +40,6 @@ Los tests usan tareas (tasks), interacciones (interactions), preguntas (question
 
 
 ## Herramienta de automatización utilizado
----
 Se utiliza el IDE Eclipse o IntelliJ para el desarrollo de la automatización. 
 + Eclipse es una plataforma de desarrollo, diseñada para ser extendida de forma indefinida a través de plug-ins. Fue concebida desde sus orígenes para convertirse en una plataforma de integración de herramientas de desarrollo. No tiene en mente un lenguaje específico, sino que es un IDE genérico, aunque goza de mucha popularidad entre la comunidad de desarrolladores del lenguaje Java usando el plug-in JDT que viene incluido en la distribución estándar del IDE. Proporciona herramientas para la gestión de espacios de trabajo, escribir, desplegar, ejecutar y depurar aplicaciones.
 
@@ -51,7 +47,6 @@ Se utiliza el IDE Eclipse o IntelliJ para el desarrollo de la automatización.
 
 
 ## El navegador y la versión utilizada
----
 El navegador utilizado fue: chrome=66.0 y el chromeDriver soportado para esta versión es chromedriver = 2.46 Para más información consultar página de compatibilidad (https://chromedriver.storage.googleapis.com/2.37/notes.txt).
 
 Para correr el proyecto se necesita Java JDK 1.8 y Gradle preferiblemente con la versión 4.7.
