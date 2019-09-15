@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Compra_Producto.Compra_Producto.iml" filepath="$PROJECT_DIR$/.idea/modules/Compra_Producto.Compra_Producto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Compra_Producto.Compra_Producto.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Compra_Producto.Compra_Producto.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Compra_Producto.Compra_Producto.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Compra_Producto.Compra_Producto.test.iml" />
+    </modules>
+  </component>
+</project>

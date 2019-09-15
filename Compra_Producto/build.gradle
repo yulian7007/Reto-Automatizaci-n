@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group 'Compra_Producto'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+
+dependencies {
+    compile 'net.serenity-bdd:serenity-core:2.0.56'
+    compile 'net.serenity-bdd:serenity-junit:2.0.56'
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.40'
+    compile 'net.serenity-bdd:serenity-screenplay:2.0.56'
+    compile 'net.serenity-bdd:serenity-screenplay-webdriver:2.0.56'
+    compile group: 'org.apache.poi', name: 'poi', version: '4.0.0'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.0.0'
+
+    testCompile 'net.serenity-bdd:serenity-core:2.0.56'
+    testCompile 'net.serenity-bdd:serenity-junit:2.0.56'
+    testCompile('junit:junit:4.12')
+    testCompile('org.assertj:assertj-core:1.7.0')
+    testCompile('org.slf4j:slf4j-simple:1.7.7')
+
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.26'
+}
