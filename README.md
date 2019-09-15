@@ -1,7 +1,7 @@
 ## Reto Automatizacion
 ---
-## Descripción y contexto
 
+## Descripción y contexto
 Es una automatizacion para la compra de un producto, donde el usuario busca el producto que desea adquirir y lo agrega en el carro de compras, luego valida si el producto se agrego correctamente en dicho carro.
 
 
